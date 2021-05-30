@@ -1,0 +1,255 @@
+body {
+    margin: auto;
+    width: 100%;
+    font-family: Raleway;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 0;
+}
+.bg-top {
+    height: 260px;
+    background-image: url('../img/site/bg-top.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-bottom {
+    height: 260px;
+    background-image: url('../img/site/bg-bottom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-wrapper {
+    justify-content: center;
+}
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+.dekstop-view {
+    flex-direction: row;
+    display: flex;
+}
+.available-text {
+    font-weight:600;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.image-cart {
+    width: 469px;
+    height: 475px;
+}
+.hero-img-title {
+    width: 830px;
+    height: 48px;
+}
+.hero-img-logo {
+    margin-top: 30px;
+    width: 810px;
+    height: 162px;
+}
+.logo-wrapper {
+    float: left;
+}
+.button-download {
+    width: 537px;
+    height: 78px;
+}
+.button-android, .button-ios {
+    width: 206px;
+    height: 66px;
+}
+.button-android {
+    margin-right: 30px;
+}
+.tagline-wrapper {
+    display: flex;
+}
+.row {
+    padding: 32px;
+}
+.mobile {
+    display: none;
+}
+
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: auto;
+        text-align: center;
+    }
+    .bg-top {
+        height: 80px;
+        background-size: contain;
+    }
+    .bg-bottom {
+        margin-top: 20px;
+        height: 80px;
+    }
+    .dekstop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .hero-img-title {
+        width: 330px;
+        height: auto;
+    }
+    .hero-img-logo {
+        width: 310px;
+        height: auto;
+    }
+    .button-download {
+        width: 280px;
+        height: auto;
+    }
+    .image-cart {
+        width: 269px;
+        height: auto;
+    }
+    .button-android {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .hero-img-title {
+        width: 300px;
+        height: auto;
+    }
+    .hero-img-logo {
+        width: 810px;
+        height: auto;
+    }
+    .dekstop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        margin: auto;
+        text-align: center;
+    }
+    .bg-top {
+        height: 150px;
+        background-size: contain;
+    }
+    .bg-bottom {
+        margin-top: 50px;
+        height: 100px;
+    }
+    .dekstop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .mobile {
+        display: block;
+    }
+    .hero-img-title {
+        width: 80%;
+        height: auto;
+    }
+    .hero-img-logo {
+        width: 80%;
+        height: auto;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        text-align: center;
+    }
+    .button-download {
+        width: 80%;
+        height: auto;
+    }
+    .button-android, .button-ios {
+        margin-right: 0;
+        margin-bottom: 50px;
+        width: 50%;
+        height: auto;
+    }
+    .available-text {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .image-cart {
+        width: 60%;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: auto;
+        text-align: center;
+    }
+    .bg-top {
+        height: 30%;
+        background-size: cover;
+    }
+    .bg-bottom {
+        margin-top: 50px;
+        height: 214px;
+    }
+    .dekstop-view {
+        flex-direction: row;
+        display: flex;
+    }
+    .mobile-view {
+        display: none;
+    }
+    .hero-img-title {
+        width: 830px;
+        height: auto;
+    }
+    .hero-img-logo {
+        width: 810px;
+        height: auto;
+    }
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    .button-download {
+        width: 537px;
+        height: auto;
+    }
+    .button-android, .button-ios {
+        margin-right: 35px;
+        margin-bottom: 30px;
+        width: 206px;
+        height: auto;
+    }
+    .available-text {
+        margin-top: 27px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .image-cart {
+        width: 469px;
+        height: auto;
+        margin-top: 20px;
+    }
+}
