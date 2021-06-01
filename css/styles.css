@@ -122,6 +122,11 @@ body {
         display: block;
         margin-top: 20px;
     }
+    .my-suki {
+        margin-top: 20px;
+        width: 246px;
+        height: auto;
+    }
 }
 @media only screen and (min-width: 600px) {
     .hero-img-title {
@@ -195,6 +200,10 @@ body {
         width: 60%;
         height: auto;
         margin-top: 50px;
+    }
+    .my-suki {
+        width: 446px;
+        height: auto;
     }
 }
 
